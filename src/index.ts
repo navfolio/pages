@@ -9,8 +9,8 @@ export {
   getResolvedPageModules,
   isPageModuleEnabled,
   normalizeModuleRoute,
-} from './config';
-export { pages } from './plugin';
+} from './config.js';
+export { pages } from './plugin.js';
 export type {
   NavfolioContentExtension,
   NavfolioPageModule,
