@@ -21,6 +21,11 @@ export interface NavfolioPageModuleScaffold {
     frontmatter?: (context: NavfolioScaffoldTemplateContext) => string;
     body?: (context: NavfolioScaffoldTemplateContext) => string;
 }
+export interface NavfolioPageModuleRoute {
+    pattern?: string | ((moduleRoute: string) => string);
+    entrypoint: URL;
+    prerender?: boolean;
+}
 export interface NavfolioPageModule {
     id: NavfolioPageModuleId;
     enabled?: boolean;
@@ -28,6 +33,7 @@ export interface NavfolioPageModule {
     nav: NavfolioPageModuleNav;
     collections: string[];
     scaffold?: NavfolioPageModuleScaffold;
+    routes?: NavfolioPageModuleRoute[];
 }
 export interface NavfolioPageModuleOptions {
     enabled?: boolean;

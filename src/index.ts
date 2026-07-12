@@ -18,6 +18,7 @@ export type {
   NavfolioPageModuleId,
   NavfolioPageModuleNav,
   NavfolioPageModuleOptions,
+  NavfolioPageModuleRoute,
   NavfolioPageModuleScaffold,
   NavfolioPagesPlugin,
   NavfolioScaffoldTemplateContext,
