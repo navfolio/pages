@@ -1,0 +1,23 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "@navfolio/pages",
+      "dependencies": {
+        "@navfolio/page-projects": "github:navfolio/page-projects",
+        "@navfolio/page-vibe": "github:navfolio/page-vibe",
+      },
+      "devDependencies": {
+        "typescript": "^6.0.3",
+      },
+    },
+  },
+  "packages": {
+    "@navfolio/page-projects": ["@navfolio/page-projects@github:navfolio/page-projects#edd089f", {}, "navfolio-page-projects-edd089f", "sha512-oGCQj74En3nfYdhZaUAWcNKEDMWnrMuidAZGOjfnGwjPTHn3nCH5Sdxf56n0jeaehl7KJAFoZwnRRkwi3pUTng=="],
+
+    "@navfolio/page-vibe": ["@navfolio/page-vibe@github:navfolio/page-vibe#8aa41d5", {}, "navfolio-page-vibe-8aa41d5", "sha512-w+eelofA7xzfJkFFdxBd9WsBlXyqoyGvXJpe8tP68tUlUUaEbZQZHqk570gXmVoZMQMw1hHCurZkcH+uLIxBow=="],
+
+    "typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
+  }
+}
