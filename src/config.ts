@@ -1,15 +1,11 @@
 import { projectsModule } from '@navfolio/page-projects';
-import { vibeModule } from '@navfolio/page-vibe';
 import type { NavfolioPageModule, ResolvedNavfolioPageModule } from './types';
 
 export interface NavfolioPageModuleConfig {
   modules?: NavfolioPageModule[];
 }
 
-export const defaultPageModules = [
-  projectsModule(),
-  vibeModule(),
-] satisfies NavfolioPageModule[];
+export const defaultPageModules = [projectsModule()] satisfies NavfolioPageModule[];
 
 export function normalizeModuleRoute(route: string): string {
   const trimmed = route.trim();

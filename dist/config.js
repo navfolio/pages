@@ -1,9 +1,5 @@
 import { projectsModule } from '@navfolio/page-projects';
-import { vibeModule } from '@navfolio/page-vibe';
-export const defaultPageModules = [
-    projectsModule(),
-    vibeModule(),
-];
+export const defaultPageModules = [projectsModule()];
 export function normalizeModuleRoute(route) {
     const trimmed = route.trim();
     if (!trimmed) {

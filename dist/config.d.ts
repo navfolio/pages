@@ -2,7 +2,7 @@ import type { NavfolioPageModule, ResolvedNavfolioPageModule } from './types';
 export interface NavfolioPageModuleConfig {
     modules?: NavfolioPageModule[];
 }
-export declare const defaultPageModules: ({
+export declare const defaultPageModules: {
     id: string;
     enabled: boolean | undefined;
     route: string;
@@ -18,24 +18,7 @@ export declare const defaultPageModules: ({
         defaultExtension: "mdx";
         template: "project";
     };
-} | {
-    id: string;
-    enabled: boolean | undefined;
-    route: string;
-    nav: {
-        label: string;
-        href: string;
-    };
-    collections: string[];
-    scaffold: {
-        command: string;
-        collection: string;
-        directory: string;
-        defaultExtension: "md";
-        fileName: (slug: string, now: Date) => string;
-        template: "vibe";
-    };
-})[];
+}[];
 export declare function normalizeModuleRoute(route: string): string;
 export declare function getConfiguredPageModules(config: NavfolioPageModuleConfig): NavfolioPageModule[];
 export declare function getResolvedPageModules(config: NavfolioPageModuleConfig): ResolvedNavfolioPageModule[];

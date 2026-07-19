@@ -25,8 +25,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@navfolio/page-projects": "github:navfolio/page-projects",
-    "@navfolio/page-vibe": "github:navfolio/page-vibe"
+    "@navfolio/page-projects": "github:navfolio/page-projects"
   },
   "devDependencies": {
     "typescript": "^6.0.3"

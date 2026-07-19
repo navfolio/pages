@@ -2,17 +2,19 @@
 
 Unified page module entry point for Navfolio.
 
-This package defines the public page module protocol and re-exports Navfolio's
-built-in page modules:
+This package defines the public page module protocol, resolves configured
+modules, and provides the page-system plugin marker. Optional page modules own
+their UI and are installed separately.
 
-- `projectsModule()` from `@navfolio/page-projects`
-- `vibeModule()` from `@navfolio/page-vibe`
+`projectsModule()` remains re-exported as the starter's default page module.
+Install `@navfolio/page-vibe` only when a site needs the Vibe page.
 
 ## Usage
 
 ```ts
 import { markdownPlugin } from '@navfolio/plugin-markdown';
-import { pages, projectsModule, vibeModule } from '@navfolio/pages';
+import { pages, projectsModule } from '@navfolio/pages';
+import { vibeModule } from '@navfolio/page-vibe';
 
 import { defineNavfolioConfig } from './src/plugins/config';
 

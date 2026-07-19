@@ -1,5 +1,4 @@
 export { projectsModule } from '@navfolio/page-projects';
-export { vibeModule } from '@navfolio/page-vibe';
 export {
   defaultPageModules,
   getConfiguredPageModules,
