@@ -14,6 +14,9 @@
       "default": "./dist/index.js"
     }
   },
+  "dependencies": {
+    "@navfolio/core": "github:navfolio/core"
+  },
   "files": [
     "dist",
     "README.md",

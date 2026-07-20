@@ -39,6 +39,7 @@ export interface NavfolioPageModule {
   route: string;
   nav: NavfolioPageModuleNav;
   collections: string[];
+  i18n?: NavfolioI18nContribution;
   scaffold?: NavfolioPageModuleScaffold;
   routes?: NavfolioPageModuleRoute[];
 }
@@ -58,3 +59,4 @@ export interface NavfolioPagesPlugin {
   name: '@navfolio/pages';
   enabled?: boolean;
 }
+import type { NavfolioI18nContribution } from '@navfolio/core';

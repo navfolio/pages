@@ -7,6 +7,7 @@ export {
   getPageModuleRoute,
   getResolvedPageModule,
   getResolvedPageModuleScaffolds,
+  getResolvedPageModuleI18n,
   getResolvedPageModules,
   isPageModuleEnabled,
   normalizeModuleRoute,

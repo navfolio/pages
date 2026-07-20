@@ -1,4 +1,5 @@
 import { projectsModule } from '@navfolio/page-projects';
+import type { NavfolioI18nContribution } from '@navfolio/core';
 import type { NavfolioPageModule, ResolvedNavfolioPageModule } from './types';
 
 export interface NavfolioPageModuleConfig {
@@ -87,4 +88,10 @@ export function getResolvedPageModuleScaffolds(config: NavfolioPageModuleConfig)
       },
     ];
   });
+}
+
+export function getResolvedPageModuleI18n(config: NavfolioPageModuleConfig) {
+  return getResolvedPageModules(config).flatMap((module): NavfolioI18nContribution[] =>
+    module.i18n ? [module.i18n] : [],
+  );
 }

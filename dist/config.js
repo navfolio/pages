@@ -61,3 +61,6 @@ export function getResolvedPageModuleScaffolds(config) {
         ];
     });
 }
+export function getResolvedPageModuleI18n(config) {
+    return getResolvedPageModules(config).flatMap((module) => module.i18n ? [module.i18n] : []);
+}

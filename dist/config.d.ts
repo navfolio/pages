@@ -1,3 +1,4 @@
+import type { NavfolioI18nContribution } from '@navfolio/core';
 import type { NavfolioPageModule, ResolvedNavfolioPageModule } from './types';
 export interface NavfolioPageModuleConfig {
     modules?: NavfolioPageModule[];
@@ -36,4 +37,5 @@ export declare function getResolvedPageModuleScaffolds(config: NavfolioPageModul
     body?: (context: import("./types").NavfolioScaffoldTemplateContext) => string;
     moduleId: string;
 }[];
+export declare function getResolvedPageModuleI18n(config: NavfolioPageModuleConfig): NavfolioI18nContribution[];
 //# sourceMappingURL=config.d.ts.map
