@@ -12,6 +12,7 @@ export declare const defaultPageModules: {
         href: string;
     };
     collections: string[];
+    i18n: import("@navfolio/core").NavfolioI18nContribution;
     scaffold: {
         command: string;
         collection: string;
