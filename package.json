@@ -15,7 +15,10 @@
     }
   },
   "dependencies": {
-    "@navfolio/core": "github:navfolio/core"
+    "@navfolio/core": "github:navfolio/core",
+    "@navfolio/page-media": "github:navfolio/page-media",
+    "@navfolio/page-projects": "github:navfolio/page-projects",
+    "@navfolio/page-vibe": "github:navfolio/page-vibe"
   },
   "files": [
     "dist",
@@ -26,11 +29,6 @@
     "build": "tsc -p tsconfig.json",
     "test": "bun test src/**/*.test.ts",
     "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@navfolio/page-media": "github:navfolio/page-media",
-    "@navfolio/page-projects": "github:navfolio/page-projects",
-    "@navfolio/page-vibe": "github:navfolio/page-vibe"
   },
   "devDependencies": {
     "typescript": "^6.0.3"
