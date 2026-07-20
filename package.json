@@ -15,7 +15,6 @@
     }
   },
   "dependencies": {
-    "@navfolio/core": "github:navfolio/core",
     "@navfolio/page-media": "github:navfolio/page-media",
     "@navfolio/page-projects": "github:navfolio/page-projects",
     "@navfolio/page-vibe": "github:navfolio/page-vibe"
@@ -31,6 +30,15 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@navfolio/core": "github:navfolio/core",
     "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "@navfolio/core": ">=0.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@navfolio/core": {
+      "optional": true
+    }
   }
 }
