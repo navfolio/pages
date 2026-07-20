@@ -13,8 +13,7 @@ Install `@navfolio/page-vibe` only when a site needs the Vibe page.
 
 ```ts
 import { markdownPlugin } from '@navfolio/plugin-markdown';
-import { pages, projectsModule } from '@navfolio/pages';
-import { vibeModule } from '@navfolio/page-vibe';
+import { mediaModule, pages, projectsModule, vibeModule } from '@navfolio/pages';
 
 import { defineNavfolioConfig } from './src/plugins/config';
 
@@ -24,6 +23,9 @@ export default defineNavfolioConfig({
     projectsModule(),
     vibeModule({
       route: '/space',
+    }),
+    mediaModule({
+      route: '/shelf',
     }),
   ],
 });
