@@ -30,13 +30,15 @@ export default defineNavfolioConfig({
 ```
 
 `modules` controls which page capabilities are enabled. `pages()` marks the
-page system as installed in Navfolio's plugin list.
+page system as installed in Navfolio's plugin list. `@navfolio/pages` exports
+`projectsModule()`, `vibeModule()`, and `mediaModule()` from one entry point;
+each remains optional until it appears in `modules`.
 
 ## Concepts
 
 - **Pages package**: `@navfolio/pages`, the recommended user-facing entry point.
 - **Page module package**: a concrete module package such as
-  `@navfolio/page-vibe`.
+  `@navfolio/page-vibe` or `@navfolio/page-media`.
 - **Page module**: a configured module object such as `vibeModule()`.
 
 ## Module Shape

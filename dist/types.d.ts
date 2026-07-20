@@ -1,5 +1,5 @@
 export type NavfolioPageModuleId = string;
-export type NavfolioPageModuleBuiltinId = 'projects' | 'vibe';
+export type NavfolioPageModuleBuiltinId = 'projects' | 'vibe' | 'media';
 export type NavfolioContentExtension = 'md' | 'mdx';
 export interface NavfolioScaffoldTemplateContext {
     title: string;
