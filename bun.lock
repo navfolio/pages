@@ -220,7 +220,7 @@
 
     "@navfolio/page-projects": ["@navfolio/page-projects@github:navfolio/page-projects#3e71d99", { "peerDependencies": { "@navfolio/core": ">=0.1.0" }, "optionalPeers": ["@navfolio/core"] }, "navfolio-page-projects-3e71d99", "sha512-5LbSDjiGvekJnh1CkSiyGqZ4yJOuGNpNQx79lpZAmZDLNNj8IL6uQNSzt+UcISQzUNZiomQhEOrc2McTgIppfg=="],
 
-    "@navfolio/page-vibe": ["@navfolio/page-vibe@github:navfolio/page-vibe#548c362", { "peerDependencies": { "@navfolio/core": ">=0.1.0", "astro": ">=7.0.0" }, "optionalPeers": ["@navfolio/core"] }, "navfolio-page-vibe-548c362", "sha512-vnqPFVXVvmXsercqEg28J1niAupgrIPICkb7pJOj4S4XBj6O5NYORBjTjVSaM7QNrmw+1uRLeWXkbisbCW8ssw=="],
+    "@navfolio/page-vibe": ["@navfolio/page-vibe@github:navfolio/page-vibe#54c777d", { "peerDependencies": { "@navfolio/core": ">=0.1.0", "astro": ">=7.0.0" }, "optionalPeers": ["@navfolio/core"] }, "navfolio-page-vibe-54c777d", "sha512-gmc/O9TMUkmVBKgBauRnOEibnKkbqT2KZ19OgS2uUgkCF3/tOOLeS7ljmjPkpiCUAWkuQ3XdCAMYYAhqLwLqnQ=="],
 
     "@nodable/entities": ["@nodable/entities@3.0.0", "https://bnpm.byted.org/@nodable/entities/-/entities-3.0.0.tgz", {}, "sha512-8L9xFeTYKhm49xfIypoe2W5wV1m/3Z58kT+7kR9A8OyFxcPduI4VmxaUMQyKYrRjUoLLSXv6EKKID5Tvj9cUVw=="],
 

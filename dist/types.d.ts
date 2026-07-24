@@ -18,7 +18,6 @@ export interface NavfolioPageModuleScaffold {
     collection: string;
     directory: string;
     defaultExtension?: NavfolioContentExtension;
-    fileName?: (slug: string, now: Date) => string;
     template: URL;
 }
 export interface NavfolioPageModuleRoute {

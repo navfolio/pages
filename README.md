@@ -60,7 +60,6 @@ export interface NavfolioPageModule {
     collection: string;
     directory: string;
     defaultExtension?: 'md' | 'mdx';
-    fileName?: (slug: string, now: Date) => string;
     template: URL;
   };
 }

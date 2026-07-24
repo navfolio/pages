@@ -32,7 +32,6 @@ export declare function getResolvedPageModuleScaffolds(config: NavfolioPageModul
     defaultExtension: import("./types").NavfolioContentExtension;
     command: string;
     directory: string;
-    fileName?: (slug: string, now: Date) => string;
     template: URL;
     moduleId: string;
 }[];
