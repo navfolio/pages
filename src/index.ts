@@ -13,6 +13,7 @@ export {
   normalizeModuleRoute,
 } from './config.js';
 export { pages } from './plugin.js';
+export { renderScaffoldTemplate } from './scaffold.js';
 export type {
   NavfolioContentExtension,
   NavfolioPageModule,
@@ -24,5 +25,6 @@ export type {
   NavfolioPageModuleScaffold,
   NavfolioPagesPlugin,
   NavfolioScaffoldTemplateContext,
+  NavfolioScaffoldTemplateVariable,
   ResolvedNavfolioPageModule,
 } from './types';

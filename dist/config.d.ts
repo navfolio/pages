@@ -18,7 +18,7 @@ export declare const defaultPageModules: {
         collection: string;
         directory: string;
         defaultExtension: "mdx";
-        template: "project";
+        template: URL;
     };
 }[];
 export declare function normalizeModuleRoute(route: string): string;
@@ -33,9 +33,7 @@ export declare function getResolvedPageModuleScaffolds(config: NavfolioPageModul
     command: string;
     directory: string;
     fileName?: (slug: string, now: Date) => string;
-    template?: "article" | "project" | "vibe";
-    frontmatter?: (context: import("./types").NavfolioScaffoldTemplateContext) => string;
-    body?: (context: import("./types").NavfolioScaffoldTemplateContext) => string;
+    template: URL;
     moduleId: string;
 }[];
 export declare function getResolvedPageModuleI18n(config: NavfolioPageModuleConfig): NavfolioI18nContribution[];

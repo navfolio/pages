@@ -216,11 +216,11 @@
 
     "@navfolio/mdx-components": ["@navfolio/mdx-components@github:navfolio/mdx-components#6997956", { "dependencies": { "fast-xml-parser": "^5.3.3" }, "peerDependencies": { "astro": "^5.0.0 || ^6.0.0 || ^7.0.0", "lucide-astro": "^0.556.0", "mermaid": "^11.0.0" } }, "navfolio-mdx-components-6997956", "sha512-459DvdgbYrppxi4Ytyb6f+WyV+jPiFhP4fXcDwRnQnQPbhLg/CDWFlr+AQKqf942cfHkAI+CW3/MbJTYIpBHUQ=="],
 
-    "@navfolio/page-media": ["@navfolio/page-media@github:navfolio/page-media#bca16f1", { "dependencies": { "@navfolio/mdx-components": "github:navfolio/mdx-components" }, "peerDependencies": { "@navfolio/core": ">=0.1.0", "astro": ">=7.0.0" }, "optionalPeers": ["@navfolio/core"] }, "navfolio-page-media-bca16f1", "sha512-I1bRR6Icvft3fPujGBUigmXQ79GONpGpoW0vjj6tz/jE3lkj+LlYX5nCN6T13+s9PJ9dsLLlqP57j8b3/f+buQ=="],
+    "@navfolio/page-media": ["@navfolio/page-media@github:navfolio/page-media#ee0ba5f", { "dependencies": { "@navfolio/mdx-components": "github:navfolio/mdx-components" }, "peerDependencies": { "@navfolio/core": ">=0.1.0", "astro": ">=7.0.0" }, "optionalPeers": ["@navfolio/core"] }, "navfolio-page-media-ee0ba5f", "sha512-ce5cjVCqSyHqpPu/sI+uH0zse6pBda2ldddpApuMoVqbSK0VAuUFxozqmj4kfSrRC2NDmX6nXBMfAY4/d3gAjQ=="],
 
-    "@navfolio/page-projects": ["@navfolio/page-projects@github:navfolio/page-projects#a51bef6", { "peerDependencies": { "@navfolio/core": ">=0.1.0" }, "optionalPeers": ["@navfolio/core"] }, "navfolio-page-projects-a51bef6", "sha512-iQBoRMd6TOM07Xzvn+jlSx316cmG1Bm4BNRE7NafD5E42EVmatzzetPtJAKexWu2ON8bUkFVn92jp3Kdx4CYpQ=="],
+    "@navfolio/page-projects": ["@navfolio/page-projects@github:navfolio/page-projects#3e71d99", { "peerDependencies": { "@navfolio/core": ">=0.1.0" }, "optionalPeers": ["@navfolio/core"] }, "navfolio-page-projects-3e71d99", "sha512-5LbSDjiGvekJnh1CkSiyGqZ4yJOuGNpNQx79lpZAmZDLNNj8IL6uQNSzt+UcISQzUNZiomQhEOrc2McTgIppfg=="],
 
-    "@navfolio/page-vibe": ["@navfolio/page-vibe@github:navfolio/page-vibe#fd22f9c", { "peerDependencies": { "@navfolio/core": ">=0.1.0", "astro": ">=7.0.0" }, "optionalPeers": ["@navfolio/core"] }, "navfolio-page-vibe-fd22f9c", "sha512-mz9t+8U5JYN200HrwlR3jOANUpOgw9U445UAx20YmZvESrKLi+SAacpUleMFOJqNd2CrnJGiNyMnavEOT+ui7w=="],
+    "@navfolio/page-vibe": ["@navfolio/page-vibe@github:navfolio/page-vibe#548c362", { "peerDependencies": { "@navfolio/core": ">=0.1.0", "astro": ">=7.0.0" }, "optionalPeers": ["@navfolio/core"] }, "navfolio-page-vibe-548c362", "sha512-vnqPFVXVvmXsercqEg28J1niAupgrIPICkb7pJOj4S4XBj6O5NYORBjTjVSaM7QNrmw+1uRLeWXkbisbCW8ssw=="],
 
     "@nodable/entities": ["@nodable/entities@3.0.0", "https://bnpm.byted.org/@nodable/entities/-/entities-3.0.0.tgz", {}, "sha512-8L9xFeTYKhm49xfIypoe2W5wV1m/3Z58kT+7kR9A8OyFxcPduI4VmxaUMQyKYrRjUoLLSXv6EKKID5Tvj9cUVw=="],
 

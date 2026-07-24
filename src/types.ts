@@ -8,8 +8,11 @@ export interface NavfolioScaffoldTemplateContext {
   title: string;
   slug: string;
   isoDate: string;
+  date: string;
   now: Date;
 }
+
+export type NavfolioScaffoldTemplateVariable = 'title' | 'slug' | 'isoDate' | 'date';
 
 export interface NavfolioPageModuleNav {
   label: string;
@@ -22,9 +25,7 @@ export interface NavfolioPageModuleScaffold {
   directory: string;
   defaultExtension?: NavfolioContentExtension;
   fileName?: (slug: string, now: Date) => string;
-  template?: 'article' | 'project' | 'vibe';
-  frontmatter?: (context: NavfolioScaffoldTemplateContext) => string;
-  body?: (context: NavfolioScaffoldTemplateContext) => string;
+  template: URL;
 }
 
 export interface NavfolioPageModuleRoute {

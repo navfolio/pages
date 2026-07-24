@@ -60,7 +60,27 @@ export interface NavfolioPageModule {
     collection: string;
     directory: string;
     defaultExtension?: 'md' | 'mdx';
-    template?: 'article' | 'project' | 'vibe';
+    fileName?: (slug: string, now: Date) => string;
+    template: URL;
   };
 }
 ```
+
+Each content-producing module owns and publishes its default Markdown template:
+
+```ts
+scaffold: {
+  command: 'gallery',
+  collection: 'gallery',
+  directory: 'src/content/gallery',
+  defaultExtension: 'md',
+  template: new URL('../templates/default.md', import.meta.url),
+}
+```
+
+The host maps `command` to the standard
+`bun run <command>:new <filename> [output-directory]` interface. Template files
+can use `{{ title }}`, `{{ slug }}`, `{{ isoDate }}`, and `{{ date }}`.
+Append `| yaml` to emit a YAML-safe quoted scalar, for example
+`title: {{ title | yaml }}`. `renderScaffoldTemplate()` is exported for host
+scaffold runners.
